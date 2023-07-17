@@ -1,0 +1,9 @@
+.headerButton{
+  background-color: #660000;
+  font-size: 15px;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}

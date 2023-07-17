@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: transparent;
+    padding: 15px;
+}
+
+
+.header-title {
+    width: fit-content;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    cursor: pointer;
+}

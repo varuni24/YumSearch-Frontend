@@ -1,0 +1,35 @@
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2px;
+    border: 1px solid transparent;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.homepage-title {
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+  
+.homepage-pargraph {
+    margin-top: 20px;
+    font-family: cursive;
+    text-align: center;
+    font-size: 20px;
+}
+  
+
+.explore-recipes {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #660000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

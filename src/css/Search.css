@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('./fonts/Roboto\ Slab/RobotoSlab-Bold.ttf') format('truetype');
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    width: 80vw;
+    min-width: 400px;
+}
+
+.search-title {
+    font-family: 'Roboto Slab';
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.search-input-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+ .search-input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 16px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-color: black;
+}
+
+
+.search-button {
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 15px;
+
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.loading-spinner {
+    border: 10px solid black;
+    border-top: 8px solid rgb(186, 86, 86);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.search-results-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-height: 60vh;
+    width: 80%;
+
+    padding: 2rem;
+}
+
+
+.recipe-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(82, 21, 32);
+}
+
+.recipe-name {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.recipe-image {
+    height: 70%;
+    width: 90%;
+    cursor: pointer;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+
+
+

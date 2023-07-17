@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    src: url('../css/fonts/Noto_Sans_JP/NotoSansJP-Bold.ttf') format('truetype');
+}
+
+
+.recipe-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50vw;
+    background-color: rgb(245, 241, 241, 0.7);
+    border: 2px black solid;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 20px 0px 0px 0px;
+}
+
+
+.recipe-main-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}s
+
+.recipe-title {
+    font-family: "Noto Sans Japanese";
+    margin-bottom: 20px;
+}
+
+.recipe-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-right: 1rem;
+}
+
+.nutrients-section {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.serving-size {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.serving-size-input {
+    text-align: center;
+    width: 15%;
+    margin: 10px;
+    padding: 5px;
+    border: 1px black solid;
+    border-radius: 4px;
+}
+
+
+.nutrient-item {
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+.recipe-instructions {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.intructions-title {
+    font-family: "Noto Sans Japanese";
+}
+
+.recipe-step {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.recipe-not-found-err-msg {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.button-container {
+    margin-top: 20px;
+}
+
+.like-button,
+.unlike-button {
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.like-button {
+    background-color: #3498db;
+}
+
+.unlike-button {
+    background-color: rgba(255, 0, 0, 0.804);
+}
+

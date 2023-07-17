@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Lobster';
+  src: url('./fonts/Lobster/Lobster-Regular.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+}
+
+
+.website-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./images/homeBkg.jpg');
+  background-size: cover;
+  background-repeat: repeat-y;
+  height: 100%;
+  min-height: 100vh;
+  padding-bottom: 3rem;
+}
+
+.blur-background {
+  background-image: url('./images/homeBkgBlurred.jpg');
+}

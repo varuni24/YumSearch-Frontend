@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('./fonts/Roboto\ Slab/RobotoSlab-Bold.ttf') format('truetype');
+}
+
+.favorites-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  min-width: 100vh;
+}
+
+.favorites-heading {
+  font-family: 'Roboto Slab';
+  font-size: 50px;
+  text-align: center;
+}
+
+.fav-box{
+  min-height: 25vh;
+}
+
+.fav-recipe-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.delete-button {
+  background-color: #262424;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.delete-button:hover {
+  background-color: #131313;
+}
+
+
+.no-favorites-message {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 25px;
+}
