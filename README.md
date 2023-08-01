@@ -1,7 +1,9 @@
 # YumSearch
 
 <p align="center">
-  <img src="readMeImgs/SnackTrackHome.png" alt="YumSearch Banner" width="600" height="300" class="centered-image" />
+  <img src="readmeImgs/main page.png" alt="YumSearch Banner" width="600" height="300" class="centered-image" />
+  <img src="readmeImgs/search page.png" alt="YumSearch Banner" width="600" height="300" class="centered-image" />
+  <img src="readmeImgs/recipe page.png" alt="YumSearch Banner" width="600" height="300" class="centered-image" />
 </p>
 
 YumSearch is a recipe exploration web application that uses the Spponacular API from APILayers and is built using Redux with a backend in MongoDB. It allows users to login into their existing accounts/ create new account and search for various recipes. The application displays the top 10 results from the API. For each recipe, the user can access its nutritional values (that can be changes with a custom serving size) and the steps to the prepare the recipe. They can also add it to their lists of Favourites. With its user-friendly interface and comprehensive database, YumSearch enables individuals to explore different kinds of recipes and add it to their list of favoruite recipes.
