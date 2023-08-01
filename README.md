@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# YumSearch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="readMeImgs/SnackTrackHome.png" alt="YumSearch Banner" width="600" height="300" class="centered-image" />
+</p>
 
-## Available Scripts
+YumSearch is a recipe exploration web application that uses the Spponacular API from APILayers and is built using Redux with a backend in MongoDB. It allows users to login into their existing accounts/ create new account and search for various recipes. The application displays the top 10 results from the API. For each recipe, the user can access its nutritional values (that can be changes with a custom serving size) and the steps to the prepare the recipe. They can also add it to their lists of Favourites. With its user-friendly interface and comprehensive database, YumSearch enables individuals to explore different kinds of recipes and add it to their list of favoruite recipes.
 
-In the project directory, you can run:
+This project was made in order to apply my learning of Redux and its connection to MongoDB using Mongoose. 
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Login/Signup Feature**: Login into your account or create a new one.
+- **Search Functionality**: Search for recipes by name and get the top 10 results matching the search query.
+- **Flexible Serving Size**: Nutrient values adjust dynamically based on the serving size you choose.
+- **Add/Remove from Favourites**: Add/remove any recipe from the list of favourites.
+- **Detailed Food Pages**: Individual recipe pages display the name, image, nutrient values,serving size input, and the steps to prepare the recipe for a specific recipe. Nutrient values includes percents of proteins, fat and carbs.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js: Make sure you have Node.js installed on your machine. You can download it from [here](https://nodejs.org).
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Create a main folder where you can clone the frontend and backend folders
+2. Clone the frontend repository: `git clone https://github.com/varuni24/recipe-website-frontend.git`
+3. Clone the backend repository: `git clone https://github.com/varuni24/recipe-website-backend.git`
+4. Install the dependencies for both the backend and frontend by navigating into each folder seperately and running the command: `npm install`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Usage
 
-### `npm run eject`
+Run the frontend and backend servers on seperate windows: `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Feedback and Support
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Any feedback you have on YumSearch is appreciated. If you encounter any issues or have suggestions for improvement, please let me know!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For support or inquiries, you can reach out to me on Linkedin: https://www.linkedin.com/in/varunigupta/.
