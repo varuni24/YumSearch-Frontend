@@ -1,4 +1,4 @@
-# YumSearch
+# YumSearch 
 
 <p align="center">
   <img src="readmeImgs/main page.png" alt="YumSearch Banner" width="600" height="300" class="centered-image" />
